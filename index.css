@@ -97,6 +97,25 @@ body{
     transition: 2s ease-in-out;
 }
 
+.item6:hover{
+    animation: customAnimation 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes customAnimation{
+    from{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-45deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+
 @media (max-width:768px){
     /* .container{
     } */
